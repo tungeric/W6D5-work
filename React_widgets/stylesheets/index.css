@@ -1,0 +1,109 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Fira Sans', sans-serif;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+  list-style: none;
+}
+
+/* Clock Stuff */
+
+.clock-ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.clock {
+  font-size: 30px;
+  width: 500px;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid black;
+  width: 550px;
+  border: 2px solid black;
+  margin: 0 20px 20px 20px;
+  padding: 10px;
+  background-color: orange;
+}
+
+.clock-ul p {
+  font-size: 24px;
+  color: white;
+  padding: 10px;
+}
+
+
+/*Weather stuff*/
+
+.weather-content {
+  font-size: 28px;
+  width: 550px;
+  height: 94px;
+  border: 2px solid black;
+  margin: 0 20px 20px 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightgreen;
+}
+
+/* Autocomplete */
+
+.auto {
+  font-size: 28px;
+  width: 550px;
+  height: 300px;
+  border: 2px solid black;
+  margin: 0 20px 20px 20px;
+  padding: 10px;
+  text-align: left;
+  background-color: lightblue;
+}
+
+.autolist {
+  font-size: 16px;
+
+}
+
+.test {
+  background-color: white;
+}
+
+.label {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Tab */
+
+.tabs {
+  width: 400px;
+  margin: 0 20px 0 20px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  background-color: yellow;
+}
+
+.header {
+  border: 2px solid black;
+  font-size: 24px;
+}
+
+.content {
+  width: 360px;
+  height: 300px;
+  background-color: yellow;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 0 20px 0px 20px;
+}
